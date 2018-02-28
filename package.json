@@ -1,0 +1,20 @@
+{
+  "name": "fetch-with-aymal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fetch.js",
+  
+  "scripts": {
+    "build":"webpack-cli",
+    "start": "webpack-cli --watch",
+    "clean": "rm -rf ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.0.1"
+  },
+  "dependencies": {
+    "webpack-cli": "^2.0.9"
+  }
+}
